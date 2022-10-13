@@ -25,9 +25,6 @@ function createDreamTeam(members) {
     return resultArr.sort().join('');
 }
 
-console.log(createDreamTeam([' matt', 'Ann', 'Dmitry', 'Max']));
-console.log(createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]));
-
 module.exports = {
   createDreamTeam
 };
